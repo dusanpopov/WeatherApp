@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: lightcoral;
+    background-image: linear-gradient(to right top, #6d8bb7, #618bc4, #528cd1, #3d8cde, #128deb);
+    color: white;
+}
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.location__timezone {
+    font-size: 3.2rem;
+}
+
+.temperature__degree {
+    font-size: 6rem;
+}
+
+.temperature__description {
+    font-size: 3rem;
+}
+
+.temperature--section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 1.5rem;
+    margin-top: 2rem 0;
+    
+}
+
+.temperature--section span{
+    margin: 1rem;
+    font-size: 1.8rem;
+}
+
+.pressure, .precipitation, .temperature__description {
+    font-size: 2.5rem;
+    padding: 1.8rem;
+    margin: 1rem;
+}
