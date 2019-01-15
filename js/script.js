@@ -3,13 +3,13 @@ window.addEventListener("load", () => {
     let long;
     let lat;
 
-    let temperatureDescription = document.querySelector(".temperature__description");
-    let temperatureDegree = document.querySelector(".temperature__degree");
-    let locationTimezone = document.querySelector(".location__timezone");
-    let temperatureSection = document.querySelector(".temperature--section");
-    let temperatureUnit = document.querySelector(".temperature__degree--unit");
-    let pressureValue = document.querySelector(".pressure");
-    let precipitation = document.querySelector(".precipitation");
+    const temperatureDescription = document.querySelector(".temperature__description");
+    const temperatureDegree = document.querySelector(".temperature__degree");
+    const locationTimezone = document.querySelector(".location__timezone");
+    const temperatureSection = document.querySelector(".temperature--section");
+    const temperatureUnit = document.querySelector(".temperature__degree--unit");
+    const pressureValue = document.querySelector(".pressure");
+    const precipitation = document.querySelector(".precipitation");
 
     if(navigator.geolocation){
 
