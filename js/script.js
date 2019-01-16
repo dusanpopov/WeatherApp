@@ -53,9 +53,9 @@ window.addEventListener("load", () => {
                         temperatureDegree.textContent = celsius.toFixed(1);
             
                     } else {
-                        temperatureUnit.textContent = "F";
-                        temperatureDegree.textContent = temperature;
                         
+                        temperatureUnit.textContent = "F";
+                        temperatureDegree.textContent = temperature
                     }
                 }
 
